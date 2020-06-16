@@ -3,3 +3,16 @@ html, body{
     margin: 0px;
     padding: 0px;
 }
+
+.you-donate-we-help {
+    background-color: #000000;
+    background-image: url("images/youdonate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
