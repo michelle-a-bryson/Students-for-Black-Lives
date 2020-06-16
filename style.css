@@ -2,8 +2,6 @@ html, body{
     font-family: 'Franklin Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
-
 }
 
 .you-donate-we-help {
@@ -24,11 +22,11 @@ html, body{
 }
 
 .our-mentors {
-background-color: #B9BABD;
-text-align: center;
-font-size: 2vmax;
-}
-
+    background-color: #B9BABD;
+    text-align: center;
+    font-size: 2vmax;
+    }
+    
 .button {
     background-color: #000000;
     color: #666666;
@@ -41,3 +39,40 @@ font-size: 2vmax;
     text-align: center;
     font-size: 2vmax;
 }
+
+.sponsor-a-student {
+    text-align: center;
+    background-color: #5d6d7c;
+    color: #F2EFE2;
+}
+
+.sponsor-a-student a:link{
+    color: #F2EFE2;
+    text-decoration: underline;
+}
+
+.sponsor-a-student a:visited{
+    color: #F2EFE2;
+    text-decoration: underline;
+}
+
+.sponsor-a-student a:hover{
+    color: #e9c184;
+    text-decoration: underline;
+}
+
+.sponsor-a-student a:active{
+    color: #F2EFE2;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item {
+    margin: auto;
+    
+}
+
