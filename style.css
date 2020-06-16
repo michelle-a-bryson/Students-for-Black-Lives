@@ -13,6 +13,10 @@ html, body{
     width: auto;
     text-align: center;
     color: yellow;
-    font-size: 30px;
     font-weight: bold;
+}
+
+.who-we-are {
+    text-align: center;
+    background-color: #5d6d7c;
 }
