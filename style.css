@@ -2,6 +2,8 @@ html, body{
     font-family: 'Franklin Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+
 }
 
 .you-donate-we-help {
@@ -19,4 +21,17 @@ html, body{
 .who-we-are {
     text-align: center;
     background-color: #5d6d7c;
+}
+
+.our-mentors {
+background-color: #B9BABD;
+text-align: center;
+font-size: 2vmax;
+}
+
+.button {
+    background-color: #000000;
+    color: #666666;
+    font-size: 2vmax;
+    padding: 2vmin 3vmin;
 }
