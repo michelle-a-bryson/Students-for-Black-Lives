@@ -65,6 +65,17 @@ html, body{
     color: #F2EFE2;
     text-decoration: underline;
 }
+/*
+.numbers{
+    background: #000000;
+}*/
+
+.numbers{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #000000;
+    text-align: center;
+}
 
 .grid-container {
     display: flex;
