@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     font-family: 'Franklin Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -25,8 +26,8 @@ html, body{
     background-color: #B9BABD;
     text-align: center;
     font-size: 2vmax;
-    }
-    
+}
+
 .button {
     background-color: #000000;
     color: #666666;
@@ -46,22 +47,22 @@ html, body{
     color: #F2EFE2;
 }
 
-.sponsor-a-student a:link{
+.sponsor-a-student a:link {
     color: #F2EFE2;
     text-decoration: underline;
 }
 
-.sponsor-a-student a:visited{
+.sponsor-a-student a:visited {
     color: #F2EFE2;
     text-decoration: underline;
 }
 
-.sponsor-a-student a:hover{
+.sponsor-a-student a:hover {
     color: #e9c184;
     text-decoration: underline;
 }
 
-.sponsor-a-student a:active{
+.sponsor-a-student a:active {
     color: #F2EFE2;
     text-decoration: underline;
 }
@@ -73,6 +74,82 @@ html, body{
 
 .grid-item {
     margin: auto;
-    
 }
 
+.slideshow {
+    display: none;
+    max-width: 1000vh;
+    position: relative;
+    margin: auto;
+}
+
+.numbertext {
+    color: #ffffff;
+    font-size: 12vmax;
+    position: absolute;
+    top: 0;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 15vmax;
+    position: absolute;
+    bottom: 8vmax;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* SLIDESHOW CSS */
+
+.mySlides {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+/* Next & backious buttons */
+
+.back,
+.next {
+    cursor: pointer;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5vh;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3vh 0 0 3vh;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.back:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30%;
+}
+
+
+/* Caption text */
+
+.slide-text {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 3vh;
+}
