@@ -3,6 +3,14 @@ body {
     font-family: 'Franklin Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #FAE904;
+    font-weight: bold;
+    color: black;
+    
 }
 
 .you-donate-we-help {
@@ -13,16 +21,22 @@ body {
     height: auto;
     width: auto;
     text-align: center;
-    color: yellow;
+    color: #FAE904;
     font-weight: bold;
 }
 
 .who-we-are {
+    
+    padding-top: 50px;
+    margin-top: -50px;
     text-align: center;
     background-color: #5d6d7c;
 }
 
 .our-mentors {
+    
+    padding-top: 50px;
+    margin-top: -50px;
     background-color: #B9BABD;
     text-align: center;
     font-size: 2vmax;
@@ -36,12 +50,18 @@ body {
 }
 
 .sign-up {
+    
+    padding-top: 50px;
+    margin-top: -50px;
     background-color: #B9BABD;
     text-align: center;
     font-size: 2vmax;
 }
 
 .sponsor-a-student {
+    
+    padding-top: 50px;
+    margin-top: -50px;
     text-align: center;
     background-color: #5d6d7c;
     color: #F2EFE2;
@@ -76,6 +96,12 @@ body {
 
 .testimonials {
     background: #E9CAB4;
+}
+
+.faq{
+    
+    padding-top: 50px;
+    margin-top: -50px;
 }
 
 .grid-container {
