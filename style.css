@@ -4,7 +4,6 @@ body {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    background: #FAE904;
 }
 
 
@@ -13,7 +12,7 @@ body {
     background-color: #FAE904;
     font-weight: bold;
     color: black;
-    
+
 }
 
 .you-donate-we-help {
@@ -29,7 +28,7 @@ body {
 }
 
 .who-we-are {
-    
+
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 30px;
@@ -38,7 +37,7 @@ body {
 }
 
 .our-mentors {
-    
+
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 30px;
@@ -66,7 +65,7 @@ body {
 }
 
 .sign-up {
-    
+
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 30px;
@@ -76,7 +75,7 @@ body {
 }
 
 .sponsor-a-student {
-    
+
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 30px;
@@ -117,12 +116,88 @@ body {
     background: #E9CAB4;
 }
 
-.faq{
-    
-    padding-top: 50px;
-    margin-top: -50px;
-    padding-bottom: 30px;
+
+.faqs {
+
+  text-align: center;
+  height: auto;
+  width: auto;
+  text-align: center;
 }
+
+
+
+
+.content {
+  width: 95%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+
+
+.question {
+  width: 100%;
+  position: relative;
+  background: #5d6d7c;
+  margin: 0;
+  padding: 14px 4px 14px 14px;
+  display: block;
+  width:100%;
+  cursor: pointer;
+}
+
+.answers {
+  background: #5d6d7c;
+  padding: 0px 15px;
+  margin: 5px 0;
+  max-height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  -moz-transition: .7s ease;
+  -o-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.questions:checked ~ .answers{
+  max-height: 500px;
+  opacity: 1;
+  padding: 15px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 10px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.questions {
+  display: none;
+  padding: 20px;
+
+}
+
 
 .grid-container {
     display: flex;
@@ -271,7 +346,7 @@ body {
     border-radius: 50%;
     color: black;
   }
-  
+
   .footer p{
       float: right;
   }
