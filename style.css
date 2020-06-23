@@ -29,6 +29,7 @@ body {
     
     padding-top: 50px;
     margin-top: -50px;
+    padding-bottom: 30px;
     text-align: center;
     background-color: #5d6d7c;
 }
@@ -37,6 +38,7 @@ body {
     
     padding-top: 50px;
     margin-top: -50px;
+    padding-bottom: 30px;
     background-color: #B9BABD;
     text-align: center;
     font-size: 2vmax;
@@ -53,6 +55,7 @@ body {
     
     padding-top: 50px;
     margin-top: -50px;
+    padding-bottom: 30px;
     background-color: #B9BABD;
     text-align: center;
     font-size: 2vmax;
@@ -62,6 +65,7 @@ body {
     
     padding-top: 50px;
     margin-top: -50px;
+    padding-bottom: 30px;
     text-align: center;
     background-color: #5d6d7c;
     color: #F2EFE2;
@@ -102,6 +106,7 @@ body {
     
     padding-top: 50px;
     margin-top: -50px;
+    padding-bottom: 30px;
 }
 
 .grid-container {
