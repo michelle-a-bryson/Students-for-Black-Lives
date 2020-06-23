@@ -6,6 +6,8 @@ body {
     scroll-behavior: smooth;
 }
 
+
+
 .navbar{
     background-color: #FAE904;
     font-weight: bold;
@@ -236,3 +238,26 @@ body {
 .dot:hover {
     background-color: #717171;
 }
+
+.footer{
+    background: #FAE904;
+}
+
+.footer .grid-container{
+    width: 20%;
+    margin: auto;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+  }
+  
+  .footer p{
+      float: right;
+  }
