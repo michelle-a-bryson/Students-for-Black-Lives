@@ -48,8 +48,19 @@ body {
 }
 
 .button {
-    background-color: #000000;
-    color: #666666;
+    background-color: black;
+    border: 2px solid black;
+    color: #F2EFE2;
+    text-decoration: none;
+    font-size: 2vmax;
+    padding: 2vmin 3vmin;
+}
+
+.button:hover{
+    background-color: rgb(44, 44, 44);
+    border: 2px solid rgb(44, 44, 44);
+    color: #ffffff;
+    text-decoration: none;
     font-size: 2vmax;
     padding: 2vmin 3vmin;
 }
@@ -74,6 +85,7 @@ body {
     color: #F2EFE2;
 }
 
+/*
 .sponsor-a-student a:link {
     color: #F2EFE2;
     text-decoration: underline;
@@ -92,7 +104,7 @@ body {
 .sponsor-a-student a:active {
     color: #F2EFE2;
     text-decoration: underline;
-}
+}*/
 
 .numbers {
     padding-top: 40px;
