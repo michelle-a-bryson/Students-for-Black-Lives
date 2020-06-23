@@ -4,6 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    background: #FAE904;
 }
 
 
@@ -240,6 +241,7 @@ body {
 }
 
 .footer{
+    padding-top: 10px;
     background: #FAE904;
 }
 
