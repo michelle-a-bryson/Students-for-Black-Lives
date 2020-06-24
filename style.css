@@ -153,7 +153,8 @@ body {
 
 .answers {
   font-size: 20px;
-  background: #5d6d7c;
+  background:black;
+  color: #5d6d7c;
   padding: 0px 15px;
   margin: 5px 0;
   max-height: 0;
