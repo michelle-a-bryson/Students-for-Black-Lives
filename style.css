@@ -4,8 +4,8 @@ body {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    
 }
-
 
 
 .navbar{
@@ -335,7 +335,7 @@ body {
 
 .footer{
     padding-top: 10px;
-    background: #FAE904;
+    background-color: #FAE904;
 }
 
 .footer .grid-container{
@@ -357,8 +357,11 @@ body {
   text-decoration: none;
 }
 
-  .footer p{
-      float: right;
+  
+
+  .copyright{
+    background: #FAE904;
+    text-align: right;
   }
 
   .resources {
