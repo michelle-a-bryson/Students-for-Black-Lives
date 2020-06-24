@@ -24,6 +24,7 @@ body {
     width: auto;
     text-align: center;
     color: #FAE904;
+    text-shadow: 3px 3px 2px #000;
     font-weight: bold;
 }
 
@@ -78,7 +79,7 @@ body {
 
     padding-top: 50px;
     margin-top: -50px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: #5d6d7c;
     color: #F2EFE2;
@@ -118,7 +119,8 @@ body {
 
 
 .faqs {
-
+  padding-top: 50px;
+  padding-bottom: 30px;
   text-align: center;
   height: auto;
   width: auto;
@@ -350,6 +352,10 @@ body {
     color: black;
   }
 
+.fa:hover{
+  text-decoration: none;
+}
+
   .footer p{
       float: right;
   }
@@ -399,6 +405,7 @@ body {
     cursor: pointer;
     cursor: hand;
   }
+
 
   .imageGrid .tile:before {
     content: '';
