@@ -208,6 +208,8 @@ body {
 .grid-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid-item {
@@ -331,6 +333,10 @@ body {
 .active,
 .dot:hover {
     background-color: #717171;
+}
+
+.partnerships{
+  background: #E9CAB4;
 }
 
 .footer{
