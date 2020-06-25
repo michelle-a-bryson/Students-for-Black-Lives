@@ -8,6 +8,8 @@ body {
 }
 
 
+
+
 .navbar{
     background-color: #FAE904;
     font-weight: bold;
@@ -240,7 +242,9 @@ body {
 }
 
 
-
+.testimonials{
+  height: 47vw;
+}
 
 /* Slideshow container */
 
