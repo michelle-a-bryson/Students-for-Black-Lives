@@ -4,17 +4,12 @@ body {
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-
 }
 
-
-
-
-.navbar{
+.navbar {
     background-color: #FAE904;
     font-weight: bold;
     color: black;
-
 }
 
 .you-donate-we-help {
@@ -31,7 +26,6 @@ body {
 }
 
 .who-we-are {
-
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 30px;
@@ -40,7 +34,6 @@ body {
 }
 
 .our-mentors {
-
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 30px;
@@ -58,7 +51,7 @@ body {
     padding: 2vmin 3vmin;
 }
 
-.button:hover{
+.button:hover {
     background-color: rgb(44, 44, 44);
     border: 2px solid rgb(44, 44, 44);
     color: #ffffff;
@@ -68,7 +61,6 @@ body {
 }
 
 .sign-up {
-
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 30px;
@@ -78,7 +70,6 @@ body {
 }
 
 .sponsor-a-student {
-
     padding-top: 50px;
     margin-top: -50px;
     padding-bottom: 50px;
@@ -86,6 +77,7 @@ body {
     background-color: #5d6d7c;
     color: #F2EFE2;
 }
+
 
 /*
 .sponsor-a-student a:link {
@@ -120,93 +112,101 @@ body {
     margin-bottom: 4vh;
 }
 
-
 .faqs {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  text-align: center;
-  height: auto;
-  width: auto;
-  text-align: center;
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 2.3vh;
 }
 
+.faq_question {
+    margin: 0vh 5vh;
+    margin-bottom: 2vh;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 1.5vh;
+    background: #5d6d7c;
+    font-weight: lighter;
+}
 
+.faq_answer_container {
+    height: 0px;
+    overflow: hidden;
+    padding: auto;
+}
 
+.faq_answer {
+    color: #5d6d7c;
+    margin: 0vh 3vh
+}
 
 .content {
-  width: 95%;
-  padding: 20px;
-  margin: 0 auto;
+    width: 95%;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-
-
 .question {
-  font-size: 20px;
-
-  width: 100%;
-  position: relative;
-  background: #5d6d7c;
-  margin: 0;
-  padding: 14px 4px 14px 14px;
-  display: block;
-  width:100%;
-  cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    display: block;
+    width: 100%;
+    cursor: pointer;
 }
 
 .answers {
-  font-size: 20px;
-  background:black;
-  color: #5d6d7c;
-  padding: 0px 15px;
-  margin: 5px 0;
-  max-height: 0;
-  overflow: hidden;
-  z-index: -1;
-  position: relative;
-  opacity: 0;
-  -webkit-transition: .7s ease;
-  -moz-transition: .7s ease;
-  -o-transition: .7s ease;
-  transition: .7s ease;
+    font-size: 20px;
+    background: black;
+    color: #5d6d7c;
+    padding: 0px 15px;
+    margin: 5px 0;
+    max-height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
 }
 
-.questions:checked ~ .answers{
-  max-height: 500px;
-  opacity: 1;
-  padding: 15px;
+.questions:checked~.answers {
+    max-height: 500px;
+    opacity: 1;
+    padding: 15px;
 }
 
 .plus {
-  position: absolute;
-  margin-left: 10px;
-  z-index: 5;
-  font-size: 2em;
-  line-height: 100%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease;
-  -o-transition: .3s ease;
-  transition: .3s ease;
+    position: absolute;
+    margin-left: 10px;
+    z-index: 5;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
 }
 
-.questions:checked ~ .plus {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+.questions:checked~.plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .questions {
-  display: none;
-  padding: 20px;
-
+    display: none;
+    padding: 20px;
 }
-
 
 .grid-container {
     display: flex;
@@ -242,10 +242,10 @@ body {
     text-align: center;
 }
 
-
-.testimonials{
-  height: 600px;
+.testimonials {
+    height: 600px;
 }
+
 
 /* Slideshow container */
 
@@ -340,21 +340,21 @@ body {
     background-color: #717171;
 }
 
-.partnerships{
-  background: #E9CAB4;
+.partnerships {
+    background: #E9CAB4;
 }
 
-.footer{
+.footer {
     padding-top: 10px;
     background-color: #FAE904;
 }
 
-.footer .grid-container{
+.footer .grid-container {
     width: 20%;
     margin: auto;
 }
 
-.fa{
+.fa {
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -362,81 +362,73 @@ body {
     text-decoration: none;
     border-radius: 50%;
     color: black;
-  }
-
-.fa:hover{
-  text-decoration: none;
 }
 
+.fa:hover {
+    text-decoration: none;
+}
 
-
-  .copyright{
-    background: #FAE904;
+.copyright {
+    background: #000000;
     text-align: center;
-  }
+    color: #ffffff;
+}
 
-  .resources {
+.resources {
+    padding-top: 50px;
+    margin-top: -50px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #5d6d7c;
+    color: #F2EFE2;
+}
 
-      padding-top: 50px;
-      margin-top: -50px;
-      padding-bottom: 30px;
-      text-align: center;
-      background-color: #5d6d7c;
-      color: #F2EFE2;
-  }
+.organizations {
+    padding-top: 50px;
+    margin-top: -50px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #5d6d7c;
+    color: #F2EFE2;
+}
 
-  .organizations{
-
-      padding-top: 50px;
-      margin-top: -50px;
-      padding-bottom: 30px;
-      text-align: center;
-      background-color: #5d6d7c;
-      color: #F2EFE2;
-  }
-
-
-
-
-  .imageGrid {
+.imageGrid {
     line-height: 0;
-    margin:auto;
+    margin: auto;
     width: 80%
+}
 
-  }
-  .imageGrid .tile {
-    width:26.6%;
-    min-height:20em;
+.imageGrid .tile {
+    width: 26.6%;
+    min-height: 20em;
     line-height: 1.2;
-    display:inline-block;
+    display: inline-block;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
     position: relative;
-
-    color:#fff;
+    color: #fff;
     text-shadow: 2px 2px 2px #000;
     cursor: pointer;
     cursor: hand;
-  }
+}
 
-
-  .imageGrid .tile:before {
+.imageGrid .tile:before {
     content: '';
-    background-color: rgba(15,15,15,0.5);
+    background-color: rgba(15, 15, 15, 0.5);
     display: block;
     width: 100%;
     height: 100%;
     z-index: 0;
     position: absolute;
-  }
+}
 
-  .imageGrid .tile:hover:before {
+.imageGrid .tile:hover:before {
     display: none;
-  }
+}
 
-  .imageGrid .tile .textWrapper {
+.imageGrid .tile .textWrapper {
     text-align: center;
     vertical-align: middle;
     width: 80%;
@@ -445,82 +437,79 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: .75em;
-  }
+}
 
-  .imageGrid .tile .textWrapper .content {
+.imageGrid .tile .textWrapper .content {
     display: none;
-  }
+}
 
-  .imageGrid .tile:hover .textWrapper .content {
+.imageGrid .tile:hover .textWrapper .content {
     display: block;
-  }
+}
 
-  .imageGrid .tile:hover .textWrapper .content h2 {
+.imageGrid .tile:hover .textWrapper .content h2 {
     margin: 0;
-  }
+}
 
-  @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .imageGrid .tile {
-      width: 50%;
+        width: 50%;
     }
-  }
+}
 
-  @media (max-width: 700px) {
+@media (max-width: 700px) {
     .imageGrid .tile {
-      width: 100%;
+        width: 100%;
     }
+}
 
-  }
-
-
-  .grid-container2 {
-
-  display: grid; /* The magic: (All direct children of this div now automagically becomes grid items) */
-
-  /* PS: Since we haven't declared how many grid columns we want, we now get one column per row by default which is what we want on mobile. We declare that we want more columns on wider screens futher down in the media-queries. */
-
-  grid-gap: 1em; /* Some gap between the grid columns and rows*/
+.grid-container2 {
+    display: grid;
+    /* The magic: (All direct children of this div now automagically becomes grid items) */
+    /* PS: Since we haven't declared how many grid columns we want, we now get one column per row by default which is what we want on mobile. We declare that we want more columns on wider screens futher down in the media-queries. */
+    grid-gap: 1em;
+    /* Some gap between the grid columns and rows*/
 }
 
 .img-fluid {
-  /* Makes the size of the images in the grid fluid: */
-  width: 100%;
-  height: auto;
+    /* Makes the size of the images in the grid fluid: */
+    width: 100%;
+    height: auto;
 }
 
 .content-wrapper {
-   /* Just to center the content for later: (We'll constrain the width on larger screens futher down in the media queries.) */
-  margin: 0 auto;
-  padding: 1em;
+    /* Just to center the content for later: (We'll constrain the width on larger screens futher down in the media queries.) */
+    margin: 0 auto;
+    padding: 1em;
 }
+
 
 /* Grid changes on medium sized screens: */
+
 @media screen and (min-width: 500px) {
-
-  .grid-container2 {
-    /* Two equally sized colums, 1 fraction or "fr" each: */
-    grid-template-columns: repeat(2, 1fr);
-
-  }
-
-  .content-wrapper {
-    /* Just to wrap the content: */
-    max-width: 75vw;
-  }
+    .grid-container2 {
+        /* Two equally sized colums, 1 fraction or "fr" each: */
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content-wrapper {
+        /* Just to wrap the content: */
+        max-width: 75vw;
+    }
 }
+
 
 /* Grid changes again on larger screens: */
+
 @media screen and (min-width: 1000px) {
-
-  .grid-container {
-    /* Three equally sized colums, 1 fraction or "fr" each: */
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .content-wrapper {
-    /* Again, just to wrap the content: */
-    max-width: 50vw;
-  }
+    .grid-container {
+        /* Three equally sized colums, 1 fraction or "fr" each: */
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .content-wrapper {
+        /* Again, just to wrap the content: */
+        max-width: 50vw;
+    }
 }
+
 
 /* Just for the looks... */
